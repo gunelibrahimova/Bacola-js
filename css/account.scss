@@ -1,0 +1,111 @@
+// section1 start //
+
+.section1 {
+  padding-top: 60px;
+  .section-1 {
+    .left {
+      margin-bottom: 40px;
+      h2 {
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+      hr {
+        height: 1px;
+        width: 95%;
+      }
+      .boxes-1 {
+        h6 {
+          font-size: 10px;
+        }
+        input {
+          width: 95%;
+          border: 1px solid transparent;
+          background-color: rgba(128, 128, 128, 0.082);
+          border-radius: 3px;
+        }
+        span {
+          font-size: 10px;
+          padding-left: 25px;
+        }
+        .button {
+          button {
+            background-color: #233a95;
+            border-radius: 5px;
+            box-shadow: none;
+            padding: 5px 20px;
+            outline: none;
+            border: none;
+            margin-top: 7px;
+            height: 35px;
+            //   height: 5%;
+            p {
+              margin: auto;
+              color: white;
+              font-weight: 600;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    a {
+      font-size: 10px;
+      font-weight: 500;
+      color: #2bbef9;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .right {
+      h2 {
+        font-weight: 600;
+
+        font-size: 13px;
+        display: flex;
+        text-transform: uppercase;
+      }
+      .boxes-2 {
+        h6 {
+          font-size: 10px;
+        }
+        input {
+          width: 95%;
+          border: 1px solid transparent;
+          background-color: rgba(128, 128, 128, 0.082);
+          border-radius: 3px;
+        }
+        p {
+          font-size: 10px;
+          .a {
+            color: red;
+            text-decoration: underline;
+          }
+        }
+        .button {
+          button {
+            background-color: #233a95;
+            border-radius: 5px;
+            box-shadow: none;
+            padding: 5px 20px;
+            outline: none;
+            border: none;
+            margin-top: 7px;
+            height: 30px;
+            //   height: 5%;
+            p {
+              margin: auto;
+              color: white;
+              font-weight: 600;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// section1 end //

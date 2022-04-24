@@ -1,0 +1,113 @@
+.section1 {
+  padding-top: 60px;
+}
+
+.section1 .section-1 .left {
+  margin-bottom: 40px;
+}
+
+.section1 .section-1 .left h2 {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.section1 .section-1 .left hr {
+  height: 1px;
+  width: 95%;
+}
+
+.section1 .section-1 .left .boxes-1 h6 {
+  font-size: 10px;
+}
+
+.section1 .section-1 .left .boxes-1 input {
+  width: 95%;
+  border: 1px solid transparent;
+  background-color: rgba(128, 128, 128, 0.082);
+  border-radius: 3px;
+}
+
+.section1 .section-1 .left .boxes-1 span {
+  font-size: 10px;
+  padding-left: 25px;
+}
+
+.section1 .section-1 .left .boxes-1 .button button {
+  background-color: #233a95;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  margin-top: 7px;
+  height: 35px;
+}
+
+.section1 .section-1 .left .boxes-1 .button button p {
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.section1 .section-1 a {
+  font-size: 10px;
+  font-weight: 500;
+  color: #2bbef9;
+  text-decoration: none;
+}
+
+.section1 .section-1 a:hover {
+  text-decoration: underline;
+}
+
+.section1 .section-1 .right h2 {
+  font-weight: 600;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.section1 .section-1 .right .boxes-2 h6 {
+  font-size: 10px;
+}
+
+.section1 .section-1 .right .boxes-2 input {
+  width: 95%;
+  border: 1px solid transparent;
+  background-color: rgba(128, 128, 128, 0.082);
+  border-radius: 3px;
+}
+
+.section1 .section-1 .right .boxes-2 p {
+  font-size: 10px;
+}
+
+.section1 .section-1 .right .boxes-2 p .a {
+  color: red;
+  text-decoration: underline;
+}
+
+.section1 .section-1 .right .boxes-2 .button button {
+  background-color: #233a95;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  margin-top: 7px;
+  height: 30px;
+}
+
+.section1 .section-1 .right .boxes-2 .button button p {
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+/*# sourceMappingURL=account.css.map */

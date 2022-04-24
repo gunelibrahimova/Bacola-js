@@ -1,0 +1,98 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .section1{
+        .text{
+            .btn1{
+                font-size: 8px;
+            }
+            .parag1{
+                display: none;
+            }
+        }
+        .box{
+            padding: 10px;
+            .box2{
+                .box3{
+                    .text{
+                        margin-left: 80px;
+                    }
+                }
+                .parag3{
+                    margin-top: 20px;
+                }
+                .box5{
+                    span{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .section2{
+        .new-product-boxes{
+            .new-product-box{
+                width: 50%;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media(min-width: 576px) and (max-width: 768px) {
+    .section1{
+        .text{
+            .btn1{
+                font-size: 8px;
+            }
+            .parag1{
+                display: none;
+            }
+        }
+        .box{
+            padding: 10px;
+            .box2{
+                .box3{
+                    .text{
+                        margin-left: 250px;
+                    }
+                }
+                table{
+                    width: 100%;
+                    tr{
+                        td{
+                            #showAns{
+                                width: 100%;
+                            }
+                            #number{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+                .parag3{
+                    margin-top: 20px;
+                }
+                .box5{
+                    span{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .section2{
+        .new-product-boxes{
+            .new-product-box{
+                width: 33%;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media(min-width: 768px) and (max-width: 992px) {
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {}

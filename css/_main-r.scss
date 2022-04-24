@@ -1,0 +1,287 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    main {
+        padding: 50px 0 !important;
+
+        .section-1 {
+            display: none;
+        }
+
+        .section-2 {
+
+            .left-box {
+                order: 2;
+
+                .left-img {
+                    .img-box {
+                        img {
+                            height: 350px;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .left-img1 {
+                    .img-box1 {
+                        img {
+                            height: 350px;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .customer {
+                    margin-bottom: 30px;
+                }
+
+
+            }
+
+            .right-box {
+                order: -1;
+                margin-left: 0px !important;
+
+                .product-boxes {
+                    .product-box {
+                        width: 50% !important;
+                    }
+                }
+
+                .new-product-boxes {
+                    .new-product-box {
+                        width: 50% !important;
+                    }
+                }
+
+                .weekend-discount-boxes {
+                    .weekend-box {
+                        margin: 10px 0;
+
+                        .img-content {
+                            padding: 30px 30px !important;
+                            max-width: 80%;
+
+                            .discount-text {
+                                margin-bottom: 5px;
+
+                            }
+
+                            h3 {
+                                font-size: 20px !important;
+
+                            }
+
+                            span {
+                                font-size: 12px !important;
+
+                            }
+
+                            .shop-a {
+                                margin-top: 10px !important;
+
+                            }
+                        }
+                    }
+                }
+
+                .banner {
+                    display: none;
+                }
+
+                .discount-box {
+                    a {
+                        .purchase-code {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3 {
+
+            .category-boxes {
+                display: flex;
+                flex-wrap: wrap;
+
+                .left-item {
+                    width: 100% !important;
+                    padding: 0 !important;
+                    border: none;
+                    margin-bottom: 20px;
+
+                }
+
+                .right-item {
+                    width: 100% !important;
+                    border: none !important;
+
+
+                    .item {
+                        padding: 0 !important;
+                        border: none;
+
+                        .img {
+                            width: 100% !important;
+
+                            img {
+                                padding: 0px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media(min-width: 576px) and (max-width: 768px) {
+    main {
+        padding: 50px 0 !important;
+
+        .section-1 {
+            display: none;
+        }
+        .section-2 {
+
+            .left-box {
+                order: 2;
+
+                .left-img {
+                    .img-box {
+
+                        img {
+                            width: 100% !important;
+
+                        }
+                    }
+                }
+
+                .left-img1 {
+                    .img-box1 {
+                        img {
+                            width: 100% !important;
+                        }
+                    }
+                }
+
+                .customer {
+                    margin-bottom: 30px;
+                }
+
+
+            }
+
+            .right-box {
+                order: -1;
+                margin-left: 0px !important;
+
+                .product-boxes {
+                    .product-box {
+                        width: 50% !important;
+                    }
+                }
+
+                .new-product-boxes {
+                    .new-product-box {
+                        width: 33.3% !important;
+                    }
+                }
+
+                .weekend-discount-boxes {
+                    .weekend-box {
+                        margin: 10px 0;
+
+                        .img-content {
+                            padding: 30px 30px !important;
+                            max-width: 80%;
+
+                            .discount-text {
+                                margin-bottom: 5px;
+
+                            }
+
+                            h3 {
+                                font-size: 20px !important;
+
+                            }
+
+                            span {
+                                font-size: 12px !important;
+
+                            }
+
+                            .shop-a {
+                                margin-top: 10px !important;
+
+                            }
+                        }
+                    }
+                }
+
+                .banner {
+                    display: none;
+                }
+
+                .discount-box {
+                    a {
+                        .purchase-code {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3 {
+
+            .category-boxes {
+                display: flex;
+                flex-wrap: wrap;
+
+                .left-item {
+                    width: 100% !important;
+                    padding: 0 !important;
+                    border: none;
+                    margin-bottom: 20px;
+
+                }
+
+                .right-item {
+                    width: 100% !important;
+                    border: none !important;
+
+
+                    .item {
+                        padding: 0 !important;
+                        border: none;
+
+                        .img {
+                            width: 100% !important;
+
+                            img {
+                                padding: 0px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media(min-width: 768px) and (max-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {}
+
+@import "_static-r.scss"
