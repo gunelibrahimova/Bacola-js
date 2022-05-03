@@ -401,6 +401,15 @@
 }
 
 @media (max-width: 576px) {
+  #header .header-center {
+    display: none;
+  }
+  #header .header-bottom {
+    display: none;
+  }
+  #header .bottom {
+    display: none;
+  }
   .section1 {
     padding: 10px 0px;
   }
